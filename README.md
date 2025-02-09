@@ -109,4 +109,4 @@ Incorporate real-time product trends in recommendations.
 
 Implement a multi-objective optimization to balance profitability and diversity.
 
-👨‍💻 Developed by: [Priyanshu Panchal]
+👨‍💻 Developed by: Priyanshu Panchal
