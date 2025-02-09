@@ -31,17 +31,29 @@ Column Name
 Description
 
 product_id : Unique ID for each product
+
 product_name : Name of the product
+
 category : Product category
+
 discounted_price :  Discounted price of the product
+
 actual_price : Original price before discount
+
 discount_percentage : Discount percentage
+
 rating : Average rating (float)
+
 rating_count : Number of ratings received
+
 review_content : User-generated review text
+
 user_id : UserIDs of all users who rated the product later split into UniqueIDs
+
 review_id : Unique ID for each review
+
 sentiment :Predicted sentiment from BERT
+
 expected_sentiment :Sentiment mapped from ratings
 
 🛠️ Tech Stack
