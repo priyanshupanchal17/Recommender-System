@@ -1,0 +1,1 @@
+This Folder contains all the graphs that have visualized the trends and patterns in the dataset
