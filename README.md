@@ -30,57 +30,19 @@ Column Name
 
 Description
 
-product_id
-
-Unique ID for each product
-
-product_name
-
-Name of the product
-
-category
-
-Product category
-
-discounted_price
-
-Discounted price of the product
-
-actual_price
-
-Original price before discount
-
-discount_percentage
-
-Discount percentage
-
-rating
-
-Average rating (float)
-
-rating_count
-
-Number of ratings received
-
-review_content
-
-User-generated review text
-
-user_id
-
-Unique ID for each user
-
-review_id
-
-Unique ID for each review
-
-sentiment
-
-Predicted sentiment from BERT
-
-expected_sentiment
-
-Sentiment mapped from ratings
+product_id : Unique ID for each product
+product_name : Name of the product
+category : Product category
+discounted_price :  Discounted price of the product
+actual_price : Original price before discount
+discount_percentage : Discount percentage
+rating : Average rating (float)
+rating_count : Number of ratings received
+review_content : User-generated review text
+user_id : UserIDs of all users who rated the product later split into UniqueIDs
+review_id : Unique ID for each review
+sentiment :Predicted sentiment from BERT
+expected_sentiment :Sentiment mapped from ratings
 
 🛠️ Tech Stack
 
@@ -126,20 +88,6 @@ Create a scatter plot of products grouped by sentiment.
 
 Highlight highly rated products.
 
-🎯 How to Run the Project
-
-Clone the repository:
-
-git clone https://github.com/your-repo-url
-cd your-repo-folder
-
-Install dependencies:
-
-pip install -r requirements.txt
-
-Run the analysis script:
-
-python main.py
 
 📌 Future Enhancements
 
@@ -149,4 +97,4 @@ Incorporate real-time product trends in recommendations.
 
 Implement a multi-objective optimization to balance profitability and diversity.
 
-👨‍💻 Developed by: [Your Name]📅 Project Date: [Month, Year]
+👨‍💻 Developed by: [Priyanshu Panchal]
